@@ -17,12 +17,28 @@ textarea.form-control {
     border-radius: 0.375rem;
 }
 
+.gradient-bg {
+    background: linear-gradient(120deg, #f6f9fc 0%, #e9ecef 100%);
+    min-height: 100vh;
+}
+
+
+.post-card {
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
 /* Hover Effects */
 .post-card:hover {
     box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    transform: translateY(-3px);
 }
 
 /* Avatar Image */
 .profile-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
     object-fit: cover;
 }
